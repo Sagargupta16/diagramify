@@ -13,7 +13,7 @@
   "engines": {
     "node": ">=22"
   },
-  "packageManager": "pnpm@12.14.0",
+  "packageManager": "pnpm@12.16.1",
   "scripts": {
     "build": "node scripts/build.mjs",
     "sync-icons": "node scripts/sync-icons.mjs",
@@ -25,19 +25,19 @@
     "format": "biome format --write ."
   },
   "devDependencies": {
-    "@biomejs/biome": "2.5.15",
-    "@iconify-json/carbon": "1.2.28",
-    "@iconify-json/logos": "1.2.16",
+    "@biomejs/biome": "2.6.4",
+    "@iconify-json/carbon": "1.2.29",
+    "@iconify-json/logos": "1.2.18",
     "@iconify-json/ph": "1.2.2",
-    "@iconify-json/simple-icons": "1.2.100",
-    "@iconify-json/tabler": "1.2.42",
-    "@primer/octicons": "19.40.0",
+    "@iconify-json/simple-icons": "1.2.101",
+    "@iconify-json/tabler": "1.2.43",
+    "@primer/octicons": "19.42.0",
     "@resvg/resvg-wasm": "2.6.2",
-    "@types/node": "26.6.5",
-    "elkjs": "0.12.0",
+    "@types/node": "26.6.6",
+    "elkjs": "0.12.1",
     "esbuild": "0.28.2",
     "fflate": "0.8.3",
-    "simple-icons": "16.35.0",
+    "simple-icons": "16.36.0",
     "svgo": "4.1.0",
     "typescript": "7.0.2",
     "vitest": "5.0.5",
