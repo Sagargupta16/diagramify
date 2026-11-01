@@ -1,6 +1,6 @@
 # Icons
 
-18,209 icons in 10 packs, all current official artwork. The four cloud packs are built from each vendor's own download by `scripts/sync-icons.mjs` (pinned by URL and SHA-256 in `scripts/icon-sources.json`; a monthly workflow re-pins newer releases) and ship inside the skill. The six sets that are published as npm libraries are not copied into the skill: they load from the library itself at render time (see [Where icons load from](#where-icons-load-from)). Every icon is drawn the same way either way: ids made unique per use, monochrome glyphs colored for the theme.
+18,300 icons in 10 packs, all current official artwork. The four cloud packs are built from each vendor's own download by `scripts/sync-icons.mjs` (pinned by URL and SHA-256 in `scripts/icon-sources.json`; a monthly workflow re-pins newer releases) and ship inside the skill. The six sets that are published as npm libraries are not copied into the skill: they load from the library itself at render time (see [Where icons load from](#where-icons-load-from)). Every icon is drawn the same way either way: ids made unique per use, monochrome glyphs colored for the theme.
 
 | Pack | Icons | Source | Version | What it covers | Ships |
 | --- | ---: | --- | --- | --- | --- |
@@ -8,11 +8,11 @@
 | `azure` | 636 | [Azure Architecture Icons](https://learn.microsoft.com/en-us/azure/architecture/icons/) | V24 | Azure services and resources | bundled |
 | `gcp` | 233 | [Google Cloud icons](https://cloud.google.com/icons) | May 2026 icon guide | 19 core product icons, 26 category icons, 188 products mapped to the icon Google assigns them | bundled |
 | `k8s` | 40 | [Kubernetes icons](https://github.com/kubernetes/community/tree/master/icons) | kubernetes/community@70a4bb2 | resource kinds, control plane, infrastructure, the Kubernetes logo | bundled |
-| `github` | 399 | [GitHub Octicons](https://primer.style/octicons) | @primer/octicons 19.40.0 | GitHub's own icon set | npm `@primer/octicons` |
-| `ibm` | 2,776 | [IBM Carbon icons](https://carbondesignsystem.com/elements/icons/library/) | Carbon 11.89.0 | IBM's UI icons, which IBM's technical diagram guide puts in diagram nodes, including 204 IBM product glyphs (`ibm:ibm-cloud-kubernetes-service`, `ibm:watsonx-ai`) | npm `@iconify-json/carbon` |
-| `logos` | 2,151 | [SVG Logos](https://github.com/gilbarbara/logos) | 1.2.16 | full-color logos of tools, languages, databases, SaaS | npm `@iconify-json/logos` |
-| `si` | 3,351 | [Simple Icons](https://simpleicons.org) | 16.35.0 | one-color brand marks in the brand's color | npm `@iconify-json/simple-icons` |
-| `tabler` | 6,286 | [Tabler Icons](https://tabler.io/icons) | 3.49.0 | neutral outline and filled glyphs | npm `@iconify-json/tabler` |
+| `github` | 408 | [GitHub Octicons](https://primer.style/octicons) | @primer/octicons 19.42.0 | GitHub's own icon set | npm `@primer/octicons` |
+| `ibm` | 2,783 | [IBM Carbon icons](https://carbondesignsystem.com/elements/icons/library/) | Carbon 11.91.0 | IBM's UI icons, which IBM's technical diagram guide puts in diagram nodes, including 206 IBM product glyphs (`ibm:ibm-cloud-kubernetes-service`, `ibm:watsonx-ai`) | npm `@iconify-json/carbon` |
+| `logos` | 2,206 | [SVG Logos](https://github.com/gilbarbara/logos) | 1.2.18 | full-color logos of tools, languages, databases, SaaS | npm `@iconify-json/logos` |
+| `si` | 3,352 | [Simple Icons](https://simpleicons.org) | 16.36.0 | one-color brand marks in the brand's color | npm `@iconify-json/simple-icons` |
+| `tabler` | 6,305 | [Tabler Icons](https://tabler.io/icons) | 3.50.0 | neutral outline and filled glyphs | npm `@iconify-json/tabler` |
 | `ph` | 1,527 | [Phosphor Icons](https://phosphoricons.com) | 2.1.1 | neutral glyphs with a strong business and commerce range, in six weights: the regular weight is indexed, and `-thin`, `-light`, `-bold`, `-fill` and `-duotone` resolve by suffix (`ph:handshake-duotone`) | npm `@iconify-json/ph` |
 
 Only current artwork is in the catalog:
